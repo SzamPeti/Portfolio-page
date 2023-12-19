@@ -8,19 +8,12 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
-  jobit,
+  space,
   tripguide,
   threejs,
 } from "../assets";
@@ -42,7 +35,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
@@ -81,20 +74,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
     name: "Node JS",
     icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
   {
     name: "Three JS",
@@ -108,63 +93,43 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Security Analysis Intern",
+    company_name: "Schönherz Iskolaszövetkezet (Cetin Hungary Zrt.)",
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Feb 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Analyzing incoming DLP logs every day.",
+      "Session Monitoring",
+      "Antivirus, IDP and IPS alerts handling, in case opening tickets and upgradeing the problems to a L2 colleague.",
+      "Handleing security incidents and solving user issues.",
     ],
   },
   {
-    title: "React Native Developer",
+    title: "University of Dunaújváros",
     company_name: "Tesla",
-    icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sept 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Through my university sudies i learned useing and installing Linux Debian operating system.",
+      "Learned HTML, CSS, basic JavaScript and PHP knowledge.",
+      "My curriculum is focused on network system, so learned about web security, builed network system in Cisco Packet Tracer.",
+      "Worked a little with C# and make a project in Python.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Mészáros Gaszto Kft.",
+    company_name: "Tesla",
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Nov 2018 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I worked in a restaurant as a waiter near the M1 highway.",
+      "The company operated a few more restaurants so in case we helpedn eash other with employees.",
+      "Besieds the everyday water jobs we made catering for events (year ending party, company trainings, weddings, big familly events, etc).",
+      "My main location was the mentioned restaurant which had a hotel on the upper levels and at daytime i was the recepcionist also.",
     ],
   },
 ];
@@ -198,7 +163,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Webshop",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -219,25 +184,25 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Space Tourism Website",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "I made this page based on a challange on Frontendmentor.io, Not my best work but i'm proud of it because i could use any tool i want and improve through the process.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: space,
+    source_code_link: "https://github.com/SzamPeti/space-tourism-website",
   },
   {
     name: "Trip Guide",
